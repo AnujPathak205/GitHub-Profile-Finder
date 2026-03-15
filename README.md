@@ -23,18 +23,19 @@ A responsive GitHub Profile Finder built with React and Tailwind CSS that fetche
 8. Error handling for entering wrong username
 
 # API used
-GET https://api.github.com/users/{username}
+GET https://api.github.com/users/{username} 
+
 GET https://api.github.com/users/{username}/repos
 
 # React Components
 App is the main component and SearchBar, Profile and Repos are sub components
-1. App
+1. App: 
     Main component that manages state, fetches data from the GitHub REST API, and passes it to child components.
-2. SearchBar
+2. SearchBar: 
     Handles user input and allows searching GitHub usernames.
-3. Profile
+3. Profile: 
     Displays the user’s GitHub profile details like name, bio, avatar, and followers
-4. Repos
+4. Repos: 
     Shows the list of repositories with their name, description, language, and GitHub link.
 
 # Tech Stack
