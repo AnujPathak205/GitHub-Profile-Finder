@@ -1,16 +1,50 @@
-# React + Vite
+# GitHub-Profile-Finder
+A responsive GitHub Profile Finder built with React and Tailwind CSS that fetches user profiles and repositories using the GitHub REST API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+1. GitHub Username search
+2. Profile Information Display
+    1. Name
+    2. Username(login)
+    3. Bio
+    4. Location
+    5. Followers
+    6. Following
+    7. Number of public repositories
+3. Profile Avtar Display
+4. Direct Link to Github Profile
+5. Repository List Display
+    1. Repository name
+    2. Programming language used
+    3. Repository description
+    4. Link to onen the repository
+6. Responsive design
+7. Real time API data
+8. Error handling for entering wrong username
 
-Currently, two official plugins are available:
+# API used
+GET https://api.github.com/users/{username}
+GET https://api.github.com/users/{username}/repos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# React Components
+App is the main component and SearchBar, Profile and Repos are sub components
+1. App
+    Main component that manages state, fetches data from the GitHub REST API, and passes it to child components.
+2. SearchBar
+    Handles user input and allows searching GitHub usernames.
+3. Profile
+    Displays the user’s GitHub profile details like name, bio, avatar, and followers
+4. Repos
+    Shows the list of repositories with their name, description, language, and GitHub link.
 
-## React Compiler
+# Tech Stack
+1. React
+2. Tailwind CSS
+3. GitHub REST API
+4. Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Folder Structure
+![Folder structure](/src/assets/image-1.png)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# screenshot
+![screenshot](/src/assets/image.png)
