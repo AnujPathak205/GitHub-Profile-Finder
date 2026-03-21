@@ -1,6 +1,9 @@
 # GitHub-Profile-Finder
 A responsive GitHub Profile Finder built with React and Tailwind CSS that fetches user profiles and repositories using the GitHub REST API.
 
+# Live Demo
+https://github-profile-finder-web.netlify.app/
+
 # Features
 1. GitHub Username search
 2. Profile Information Display
