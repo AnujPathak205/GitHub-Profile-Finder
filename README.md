@@ -24,6 +24,7 @@ https://github-profile-finder-web.netlify.app/
 6. Responsive design
 7. Real time API data
 8. Error handling for entering wrong username
+9. UI for Loading 
 
 # API used
 GET https://api.github.com/users/{username} 
